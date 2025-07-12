@@ -1,0 +1,14 @@
+.footer-class {
+    background-color: #218838;  
+    color: white;               
+    text-align: center;         
+    padding: 7px 0;            
+    bottom: 0;
+    width: 100%;                
+    font-size: 12px;            
+  }
+  
+.footer-class p {
+    margin: 0;                  
+  }
+  

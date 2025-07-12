@@ -1,0 +1,51 @@
+.home {
+    position: relative;
+    background-image: url('/public/house-green-grass.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    color: white;
+    z-index: 1;
+    overflow: hidden;
+    flex-direction: column;
+  }
+  
+  .home::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6); 
+    z-index: -1;
+  }
+  
+  .wlcm-txt{
+    font-size: medium;
+    margin-left: 5%;
+    font-weight: 400;
+    color: #ddd;
+  }
+  
+  .wlcm-line{
+    margin-left: 5%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700; 
+    font-size: 3rem;
+    color: #fff;
+  }
+
+  .typing-text::after {
+    content: "|"; 
+    display: inline-block;
+    animation: blink 0.8s infinite;
+  }
+  
+  @keyframes blink {
+    50% { opacity: 0; }
+  }
+  

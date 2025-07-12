@@ -1,0 +1,110 @@
+.image-upload-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .upload-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .file-input-wrapper {
+    margin-bottom: 20px;
+  }
+  
+  .file-input {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    cursor: pointer;
+  }
+  
+  .file-input:focus {
+    border-color: #4e8dff;
+    outline: none;
+  }
+  
+  /* Button styles */
+  .upload-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4e8dff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .upload-btn:hover {
+    background-color: #357ac3;
+  }
+  
+  .upload-btn:active {
+    background-color: #2d68a3;
+  }
+  
+  /* Image Preview Styling */
+  .image-preview-wrapper {
+    margin-top: 20px;
+    position: relative;
+  }
+  
+  .image-preview {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    animation: fadeIn 2s ease-out;
+  }
+  
+  /* Prediction text styling */
+  .prediction-text {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+    font-weight: 500;
+  }
+  .main-fol{
+    height: 88vh;
+  }
+  /* Animation for fade-in effect */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /* Styles for the moving vertical line */
+  .moving-line {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background-color: #4e8dff;
+    animation: moveLine 2s linear forwards;
+  }
+  
+  /* Horizontal movement animation */
+  @keyframes moveLine {
+    from {
+      left: 0;
+    }
+    to {
+      left: 100%;
+    }
+  }
+  

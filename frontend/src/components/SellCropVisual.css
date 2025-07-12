@@ -1,0 +1,52 @@
+.SellCrop{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    background-color: #ffffff;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.SellButton{
+    align-items: center;
+    justify-content: center;
+    display: flex
+;}
+
+.InfoText{
+    color: #fff;
+    font-family:cursive;
+    background-color: #218838;
+    padding: 2%;
+    border-radius: 25px;
+}
+
+.aim{
+    font-size: 20px;
+}
+
+.SellBtn {
+    padding: 10px 20px;      
+    font-size: 20px;          
+    background-color: #218838; 
+    color: white;             
+    border: none;
+    border-radius: 5px;       
+    cursor: pointer;         
+}
+
+.SellBtn:hover {
+    background-color: #1c7430; 
+}
+
+@media (max-width: 768px) {
+    .SellCrop {
+        display: flex;
+        flex-direction: column;
+        gap: 10%;
+    }
+
+    .SellBtn{
+        margin-top: 20px;
+    }
+}

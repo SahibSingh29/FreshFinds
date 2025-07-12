@@ -1,0 +1,75 @@
+  
+  /* Container for the entire Vendor list */
+  .vendor-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .vendor-head {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Vendor list layout */
+  .vendor-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  /* Individual vendor item styling */
+  .vendor-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: transform 0.3s, box-shadow 0.3s ease-in-out;
+  }
+  
+  /* Hover effect for vendor items */
+  .vendor-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Vendor information (company name, location, phone) */
+  .vendor-info {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .vendor-info h3 {
+    margin: 0;
+    font-size: 1.25rem;
+    color: #333;
+  }
+  
+  .vendor-info p {
+    margin: 0;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  /* Button styling */
+  .sell-crop-button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .sell-crop-button:hover {
+    background-color: #218838;
+  }
+  
