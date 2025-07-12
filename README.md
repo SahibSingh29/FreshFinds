@@ -30,21 +30,21 @@ cd plant-disease-predictor
 
 ### 2. Setup Django Backend
 
-bash
-Copy
-Edit
-cd backend
-python -m venv env
-source env/bin/activate      # or env\Scripts\activate on Windows
-pip install -r requirements.txt
-python manage.py runserver
+- bash
+- Copy
+- Edit
+- cd backend
+- python -m venv env
+- source env/bin/activate      # or env\Scripts\activate on Windows
+- pip install -r requirements.txt
+- python manage.py runserver
 
 
 ### 3. Setup React Frontend
 
-bash
-Copy
-Edit
-cd frontend
-npm install
-npm start
+- bash
+- Copy
+- Edit
+- cd frontend
+- npm install
+- npm start
