@@ -1,4 +1,4 @@
-# 🌿 Plant Disease Predictor
+# 🌿 FreshFinds - Plant Disease Predictor
 
 A full-stack web application that predicts plant diseases from uploaded leaf images using a trained machine learning model.
 
